@@ -1,14 +1,21 @@
 # script-bruteforcing
 SSH Brute Force Script with Support for Multiple Users
+
+
+
 Overview
+
 This project provides a Bash script designed to perform brute force attacks on SSH services using the Patator tool. The script is specifically crafted to handle multiple usernames, testing them against a large dictionary of potential passwords. It systematically identifies valid credentials for each user and reports the results in real-time.
 
 Objective
+
 The primary goal of this project is to demonstrate an automated approach to testing the security of SSH services. It highlights the importance of strong passwords and robust configurations to mitigate the risk of brute force attacks.
 
 Note: This script is strictly intended for educational and authorized security testing purposes. Unauthorized use is illegal and unethical.
 
+
 Features
+
 Multiple User Support:
 
 The script reads a list of usernames from a file (user1.txt) and processes each user sequentially.
@@ -25,7 +32,10 @@ Clear Output:
 
 Reports successful login attempts, including the username and matching password.
 Displays progress for each user being tested, allowing easy monitoring of the attack.
+
+
 How It Works
+
 Input Requirements:
 Target IP Address: The script prompts the user to input the IP address of the host running the SSH service.
 Username List: The file user1.txt should contain the usernames to be tested, one per line. Ensure the file is placed in the correct directory.
