@@ -24,6 +24,8 @@ Integration with Patator:
 
 Leverages the Patator tool for performing brute force attempts.
 Configurable to use any password dictionary (280000_parole_italiane.txt by default).
+
+
 Efficiency and Automation:
 
 Automatically stops testing a user once a valid password is identified, saving time and computational resources.
