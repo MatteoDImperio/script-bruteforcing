@@ -2,6 +2,7 @@
 
 file=/home/kali/progettoscriptbruteforcing/user1.txt
 
+trovato=false
 userarray=()
 
 # Reads the users from the file and saves them into the array
